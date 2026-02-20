@@ -24,7 +24,7 @@
   </div>
 
   <!-- BOTÃO HAMBURGUER -->
-  <button class="hamburguer" id="hamburguer">
+  <button type="button" class="hamburguer" id="hamburguer" aria-label="Abrir menu de navegação">
     <i class="bi bi-list"></i>
   </button>
 
@@ -42,7 +42,6 @@
   <div class="hero-text">
     <h1 class="fade-up">Mais do que uma padaria,<br>um cuidado diário com você ☕</h1>
     <p class="fade-up">Pães fresquinhos, mercearia completa e entrega rápida de galão de água no bairro.</p>
-    <a class="btn-p" href="produtos.html">Ver produtos</a>
     <a class="btn-p" href="https://api.whatsapp.com/send?phone=5511942926399&text=Olá!%20Vim%20pelo%20site%20e%20quero%20mais%20informaçõe">fale conosco</a>
   </div>
 
@@ -56,40 +55,33 @@
   <h2>Nossos Produtos</h2>
   <p>Escolha seus favoritos e faça seu pedido. Entregamos com rapidez e carinho</p>
 
-  <div class="btn"> 
-    <a class="btn-p" href="#">Todos</a>
-    <a class="btn-p" href="#">padaria</a>
-    <a class="btn-p" href="#">sorvetes</a>
-    <a class="btn-p" href="#">mercearia</a>
-    <a class="btn-p" href="#">agua</a>
-    <div>
   <div class="cards">
     <div class="card" data-aos="zoom-in">
-      <img src="img/pães-40453961-removebg-preview.png">
+      <img src="img/pães-40453961-removebg-preview.png" alt="Pães e produtos de padaria">
       <h3>Padaria</h3>
       <p>Pães, bolos, doces e salgados fresquinhos preparados diariamente.</p>
       <a class="btn-p" href="produtos/padaria.html">Ver produtos</a>
     </div>
    
     <div class="card" data-aos="zoom-in">
-      <img src="img/sorvete.png">
+      <img src="img/sorvete.png" alt="Sorvetes e açaí">
       <h3>Sorvetes & Açaí</h3>
       <p>Opções refrescantes para todos os gostos.</p>
         <a class="btn-p" href="produtos/sorvetes.html">Ver produtos</a>
     </div>
 
     <div class="card" data-aos="zoom-in">
-      <img src="img/carrinho-removebg-preview.png">
+      <img src="img/carrinho-removebg-preview.png" alt="Produtos de mercearia">
       <h3>Mercearia</h3>
       <p>Itens essenciais do dia a dia.</p>
        <a class="btn-p" href="produtos/mercearia.html">Ver produtos</a>
     </div>
 
     <div class="card" data-aos="zoom-in">
-      <img src="img/galao-de-agua-removebg-preview.png">
+      <img src="img/galao-de-agua-removebg-preview.png" alt="Galão de água">
       <h3>Galão de Água</h3>
       <p>Entrega rápida para sua casa!.  Exclusivo para moradores do bairro.</p>
-        <a class="btn-p" href="https://api.whatsapp.com/send?phone=5511942926399">Pedir galão</a>
+        <a class="btn-p" href="produtos/agua.html">Pedir galão</a>
     </div>
   </div>
 </section>
@@ -97,7 +89,7 @@
 <!-- SOBRE -->
 <section class="sobre" id="sobre">
   <div class="sobre-img" data-aos="fade-right">
-    <img src="img/lua_com_pao.png">
+    <img src="img/lua_com_pao.png" alt="Logo da Padaria Lua de Mel com pão">
   </div>
   <div class="sobre-text" data-aos="fade-left">
     <h2>Sobre nós</h2>
@@ -122,7 +114,8 @@
 
   <a class="btn-p"
      href="https://api.whatsapp.com/send?phone=5511942926399&text=Olá!%20Vim%20pelo%20site%20e%20quero%20mais%20informações."
-     target="_blank">
+     target="_blank"
+     rel="noopener">
     💬 Falar no WhatsApp
   </a>
 </section>
@@ -143,7 +136,7 @@
 <!-- BOTÃO WHATS -->
 <a class="whats-float" href="https://api.whatsapp.com/send?phone=5511942926399&text=Olá!%0AQuero%201%20galão%20de%2020L.%0APagamento:%20Pix%0AEndereço:"
 torget="_blank" data-aos="fade-up" data-aos-delay="150">
-<img src="img/whatssapp.svg" class="btn-img"></a>
+<img src="img/whatssapp.svg" alt="Botão WhatsApp" class="btn-img"></a>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
